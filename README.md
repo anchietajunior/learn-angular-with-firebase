@@ -35,3 +35,44 @@ Change rules in Database >> Rules like this:
   }
 }
 ```
+
+## Add Firebase configs to your Angular 2 app
+
+Go to Overview in Firebase Console and click the button "Add Firebase to your web app", u will see something like this:
+
+```javascript
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "HKJAShdjash-KAJSHdjahsjdHASDhj",
+    authDomain: "yourapp.firebaseapp.com",
+    databaseURL: "https://yourapp.firebaseio.com",
+    projectId: "yourapp",
+    storageBucket: "yourapp.appspot.com",
+    messagingSenderId: "19827391827"
+  };
+  firebase.initializeApp(config);
+</script>
+```
+
+Click the "COPY" button and paste it into your myproject/src/index.html like this:
+
+```html
+<body>
+
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "HKJAShdjash-KAJSHdjahsjdHASDhj",
+    authDomain: "yourapp.firebaseapp.com",
+    databaseURL: "https://yourapp.firebaseio.com",
+    projectId: "yourapp",
+    storageBucket: "yourapp.appspot.com",
+    messagingSenderId: "19827391827"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+```
