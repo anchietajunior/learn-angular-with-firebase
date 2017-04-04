@@ -1,4 +1,4 @@
-# learn-angular-with-firebase
+# Learn Angular 2 with Firebase
 
 Simple way to start with angular 2 and firebase
 
@@ -27,9 +27,11 @@ ng serve
 
 Change rules in Database >> Rules like this:
 
+```json
 {
   "rules": {
     ".read": "true",
     ".write": "true"
   }
 }
+```
