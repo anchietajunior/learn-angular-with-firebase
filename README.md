@@ -23,7 +23,7 @@ ng new myproject
 cd myproject
 ng serve
 
-## Create a new project in [Firebase](https://firebase.google.com/?hl=pt-br"target="_blank )
+## Create a new project in [Firebase](https://firebase.google.com/?hl=pt-br)
 
 Change rules in Database >> Rules like this:
 
