@@ -1,4 +1,4 @@
-# Learn Angular 2 with Firebase
+# Learn Angular 4 with Firebase
 
 Simple way to start with angular 2 and firebase
 
@@ -36,7 +36,7 @@ Change rules in Database >> Rules like this:
 }
 ```
 
-## Add Firebase configs to your Angular 2 app
+## Add Firebase configs to your Angular 4 app
 
 Go to Overview in Firebase Console and click the button "Add Firebase to your web app", u will see something like this:
 
@@ -56,7 +56,7 @@ Go to Overview in Firebase Console and click the button "Add Firebase to your we
 </script>
 ```
 
-Click the "COPY" button and paste it into your myproject/src/index.html like this:
+Click the "COPY" button and paste it into your Angular App myproject/src/index.html like this:
 
 ```html
 <body>
