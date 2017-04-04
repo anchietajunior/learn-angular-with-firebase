@@ -81,7 +81,9 @@ Click the "COPY" button and paste it into your Angular App myproject/src/index.h
 
 Go back to your Database in Firebase console and put a message as root node, just like this:
 
+```
 yourapp="Hello World from Firebase!"
+```
 
 Go back to Angular App src/index.html file and type this under Firebase configuration:
 
@@ -93,6 +95,6 @@ root.on('value', function(snap){
 });
 ```
 
-
+Now open your console and check if this message is there, your Firebase and Angular 4 application is working just fine.
 
 
