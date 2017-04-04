@@ -76,3 +76,23 @@ Click the "COPY" button and paste it into your Angular App myproject/src/index.h
 </script>
 </body>
 ```
+
+## Testing if it's working
+
+Go back to your Database in Firebase console and put a message as root node, just like this:
+
+yourapp="Hello World from Firebase!"
+
+Go back to Angular App src/index.html file and type this under Firebase configuration:
+
+```javascript
+var root = firebase.database().ref();
+
+root.on('value', function(snap){
+  console.log(snap.val());
+});
+```
+
+
+
+
